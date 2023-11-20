@@ -1,7 +1,11 @@
 body{
     background; #CCCCCC; 
 }
-h1 ( 
+.principal {
+      background: #cccccc
+     padding 30px
+    }
+      h1 (
     text-align :center;
     border:10px solid black
     padding : 20px 
@@ -10,12 +14,30 @@ h1 (
    text-align: center
 }
 em strong {
-   color: red;
+   color: red (255, 60, 60);
 }
 #missão {
     font-size: 20px;
 
-#banner{
+#banner (
     width: 100%;
+  )
+.beneficios {
+     background: #cccccc
+     padding;20px
+    }
+.imagembeneficios {
+    width:50% ;    
 }
-
+h2{
+    text-align: center;
+}
+.itens{
+    font-style: italic;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20% ;
+    margin: 15% ;
+}
